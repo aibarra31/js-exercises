@@ -1,6 +1,7 @@
 #Chapter 3 Exercises
 1. Create a function that will multiply two numbers. The function must return the result in base 13. 
 
+   
     function mul (x,y) {
 	var z = x*y;
 	return z.toString(13);
@@ -10,6 +11,7 @@ mul(9,6);
 
 2. Create a function that will return the addition of N numbers. 
 
+    
     function add() {
 	var total =0;
 	for(var h=0; h < arguments.length; h++){
@@ -24,6 +26,7 @@ add(1,4,6,7,2);
 
 3. Create an object that will hold methods for adding, multiplying, and factorial operations. 
 
+   
    var myMath={
 	add:add,
 	mul:mul,
@@ -76,6 +79,7 @@ console.log(a,b,c,d);
 
 4. Create a custom object that will hold an image’s mock information such as pixel color                             data, image size, and name. It must be able to return the information. 
 
+   
    function Image(width,height,name,data){
 	this.width = width;
 	this.height = height;
@@ -100,6 +104,7 @@ console.log(arr);
 
 5. Create a function that will print out the properties of an object.  
 
+   
    function CustomObject (a,b){
 	this.a=a;
 	this.b=b;
